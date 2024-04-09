@@ -2,7 +2,7 @@ package designpatterns.abstractfactory;
 
 public class AbstractFactoryMain {
 
-    public static void main(String[] args) throws IllegalAccessException, InstantiationException {
+    public static void main(String[] args) {
 
         AbstractFactory audiFactory = new AudiCarFactory();
         AbstractFactory bmwFactory = new BMWCarFactory();
